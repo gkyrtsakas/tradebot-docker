@@ -10,10 +10,9 @@ RUN useradd -m tradebot
 USER tradebot
 WORKDIR /home/tradebot
 
-RUN git clone https://github.com/gsakis/mfl-tradebot
+RUN git clone https://github.com/gsakis/mfl-tradebot --branch 0.1.0
 
 WORKDIR /home/tradebot/mfl-tradebot
-RUN git pull
 
 USER root
 
