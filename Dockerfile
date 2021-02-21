@@ -20,5 +20,5 @@ USER root
 COPY startup.sh /home/tradebot/mfl-tradebot/startup.sh
 RUN chmod +x /home/tradebot/mfl-tradebot/startup.sh
 
-CMD /home/tradebot/mfl-tradebot/startup.sh && /bin/bash
+CMD /home/tradebot/mfl-tradebot/startup.sh
 
